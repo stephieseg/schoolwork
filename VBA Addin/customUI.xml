@@ -1,0 +1,80 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+             <tab id="FileName_CustomTab1" label="Advanced Tools">
+                                    <group id="Filename_Group1.1" label="Additional Formulas">
+                                           <button id="Button1.1"
+                                                label="Formula suggestion"
+                                                size="normal"
+                                                onAction = "nothing"
+                                                image="button1" />
+                                           <button id="Button1.2"
+                                                label="Custom formula library"
+                                                size="normal"
+                                                onAction="GoodbyeWorld"
+                                                image="button2" />
+                                           <checkBox id="FileName_Checkbox1"
+                                                        label="Page Breaks"
+                                                        onAction="TogglePageBreakDisplay"
+                                                        getPressed="GetPressed"
+                                                        getEnabled="getEnabled" />
+                                    </group>
+                                    <group id="Filename_Group1.2" label="Financial Info">
+                                          <button id="Button1.3"
+                                                label="Scrape Financial Info"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                          <button id="Button1.4"
+                                                label="Currency converter buttons"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                          <button id="Button1.5"
+                                                label="Currency converter from web"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                    </group>
+                                    <group id="Filename_Group1.3" label="Online data">
+                                          <button id="Button1.6"
+                                                label="Twitter Data"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                          <button id="Button1.7"
+                                                label="Iéseg Schedules"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                    </group>
+                                    <group id="Filename_Group1.4" label="Data format">
+                                          <button id="Button1.8"
+                                                label="Heat chart 1"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                          <button id="Button1.9"
+                                                label="Heat chart 2"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                    </group>
+                                    <group id="Filename_Group1.5" label="Wellbeing">
+                                          <button id="Button1.10"
+                                                label="Psychological Questionnaire"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                    </group>
+                                    <group id="Filename_Group1.6" label="Emailing">
+                                          <button id="Button1.11"
+                                                label="Email data"
+                                                size="large"
+                                                onAction="CallUserFormX"
+                                                image="monkeyid" />
+                                    </group>
+            </tab>
+       </tabs>
+    </ribbon>
+</customUI>
